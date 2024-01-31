@@ -1,0 +1,163 @@
+.gomb {
+  background-color: #503C3C;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-kontent {
+  display: none;
+  position: absolute;
+  background-color: #A87C7C;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu-kontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-kontent a:hover {background-color: #ddd; transition: 0.5s;}
+
+.menu:hover .menu-kontent {display: block;}
+
+.menu:hover .gomb {background-color: #503C3C;}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.egesz {
+  background-color: #7E6363;
+  margin: 50px;
+  padding: 30px;
+  border-radius: 14%;
+}
+
+.carti {
+  background-image: url(artworks-sTCWyIoYXtm65bWQ-hWuuyA-t500x500.jpg);
+}
+
+.galleria {
+  background-image: url(zesty.jpg);
+}
+
+.opium {
+  background-image: url(opium.jpg);
+}
+
+.album {
+  background-image: url(die-lit-playboi-carti-hi-res-cover.jpg);
+}
+
+P {
+  color: white;
+  font-size: 20px;
+}
+
+ul {
+  color: white;
+}
+
+hr {
+  color: white;
+}
+
+.playboi {
+  float: left;
+  margin: 10px;
+} 
+
+.zene {
+  float: right;
+  width: 150px;
+  height: 150px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex > div {
+  background-color: #f1f1f1;
+  margin: 15px;
+  padding: 25px;
+}
+
+.flex2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex2 > div {
+  background-color: #FF0000;
+  margin: 25px;
+  padding: 35px;
+}
+
+.kepek {
+  width: 250px;
+  height: 250px;
+}
+
+.opiumss {
+  float: left;
+  width: 150px;
+  height: auto;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.valami {
+  color: black;
+  font-size: 60px;
+
+}
+
+div.slide-left {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-left p {
+  animation: slide-left 5s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.lábrész {
+  margin-left: 15px;
+}
+
+table, tr, td {
+  border: black solid;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 10px 10px 10px 10px purple;
+}
